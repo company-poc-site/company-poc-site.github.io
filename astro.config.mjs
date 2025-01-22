@@ -7,6 +7,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	output: 'static',
 	base: '/poc-site/',
-	site: 'https://company-poc-site.github.io/poc-site',
+	site: 'https://company-poc-site.github.io',
 	integrations: [mdx(), sitemap()],
 });
